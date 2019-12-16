@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Havir Restaurant Page</title>
+    <script src="./main.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./assets/css/mainStyle.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/imgs/pillar.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="event-bar">
+        <header class="hidden">
+          <h3 class='hidden'>A BAR REMINDING PEOPLE ABOUT THE CALENDAR FEATURE</h3>
+        </header>
+        <div class="event-bar-div">
+          <span class='event-bar-span'>Check out our special events throughout the month!</span>
+        </div>
+      </div>
+
+      <section class='section section-main-picture'>
+        <header class="hidden">
+          <h3 class='hidden'>MAIN PICTURE</h3>
+        </header>
+        <div class="main-picture-container">
+          <div class="main-picture-img-container">
+            <img class="main-picture-img" src="./assets/imgs/restaurant1.jpg" alt="main-restaurant-pic">
+            <div class="main-picture-effects"></div>
+          </div>
+          <div class="bricks bricks-left">
+            <div class="bricks-text-div  brick-text-div-left">
+              <span class='bricks-span'>Welcome</span>
+              <span class='bricks-span'>to</span>
+              <span class='bricks-span'>Under</span>
+              <span class='bricks-span'>the</span>
+              <span class='bricks-span'>Pillars</span>
+            </div>
+          </div>
+          <div class="bricks bricks-right">
+            <div class="bricks-text-div">
+              <span class='bricks-span bricks-span-scaled'>Restaurant</span>
+              <span class='bricks-span bricks-span-scaled'>and</span>
+              <span class='bricks-span bricks-span-scaled'>Pizzeria</span>
+            </div>
+          </div>
+          <div class="middle-brick">
+            <div class="middle-brick-text">
+              <span>I could put a logo here</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class='section section-navbar'>
+        <header class="hidden">
+          <h3 class='hidden'>NAVBAR SECTION</h3>
+        </header>
+        <div class="navbar-middle">
+          <div class="navbar-menu">
+            <ul class='navbar-ul'>
+              <li class='navbar-li' data-menu='menu-container'>
+                <div class="navbar-li-background-fix"></div>
+                <a class='navbar-a'>Menu</a>
+              </li>
+              <li class='navbar-li' data-menu='map-container'>
+                <div class="navbar-li-background-fix"></div>
+                <a class='navbar-a'>Map</a>
+              </li>
+              <li class='navbar-li' data-menu='about-container'>
+                <div class="navbar-li-background-fix"></div>
+                <a class='navbar-a'>About</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navbar-middle-effect"></div>
+        </div>
+        <div class="navbar-logo">
+          <div class="navbar-logo-background-fix"></div>
+          <span class='navbar-span'>Welcome</span>
+        </div>
+      </section>
+
+      <section class='section section-main-content'>
+        <header class="hidden">
+          <h3 class='hidden'>MAIN CONTENT</h3>
+        </header>
+        <div class="main-content-container">
+          <div class="pillar-container">
+            <div class="pillar pillar-left"></div>
+            <div class="pillar pillar-right"></div>
+          </div>
+          <div class="main-content">
+            <div class="menu-container">
+              <div class="menu-options">
+                <div class="menu-option" data-option='drinks'>Drinks</div>
+                <div class="menu-option" data-option='appetisers'>Appetisers</div>
+                <div class="menu-option" data-option='mainDishes'>Main Dishes</div>
+                <div class="menu-option" data-option='deserts'>Deserts</div>
+                <div class="menu-option" data-option='pizzas'>Pizzas</div>
+              </div>
+              <div class="menu-main"></div>
+            </div>
+            <div class="map-container">
+              <div class="map-text-div">
+                <div class="map-text-main">
+                  <div class="map-text-address">
+                    <h3>Address</h3>
+                    <p>Reykjavik</p>
+                    <p>Skipholt</p>
+                    <p>Hafnarfjörður 220</p>
+                    <p class='warning'>*All of the above is completely random and fake*</p>
+                  </div>
+                  <div class="map-text-hours">
+                    <h3>OPEN HOURS</h3>
+                    <p>We are open:</p>
+                    <p>Monday - Friday <span class='time-stamp'>09:00 - 22:00</span></p>
+                    <p>Saturday - Sunday <span class='time-stamp'>04:00 - 22:00</span></p>
+                  </div>
+                </div>
+              </div>
+              <iframe class='map-iframe' src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;coord=64.1058263,-21.8730367&amp;q=Somewhere%2C%20hell%20I%20dont%20know+(Under%20the%20Pillars)&amp;ie=UTF8&amp;t=&amp;z=13&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0"></iframe>
+              <button class='map-button' type="button" name="button"><a target="_blank" href="https://www.google.com/maps/@-63.3990818,-56.9876793,2462m/">Open in GOOGLE MAPS</a> </button>
+            </div>
+            <div class="about-container">
+              <div class="about-text-div about-about">
+                <h3>About us</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur justo odio, bibendum vel varius sed, vulputate nec orci. Integer a velit iaculis, suscipit neque tempor, porta odio. Suspendisse condimentum volutpat facilisis. Suspendisse potenti. Quisque et mattis lorem. Duis tristique sit amet turpis et placerat. Aenean erat lacus, facilisis ac faucibus non, sodales at arcu. In eu varius ex. Proin cursus metus ac egestas commodo. Quisque rutrum ligula a ultricies suscipit.</p>
+              </div>
+              <div class="about-text-div about-contact">
+                <div class="contact-div">
+                  <h3>Contact Us</h3>
+                  <p>Phone number: 123456789</p>
+                  <p>Email: restaurantEmail@gmail.com</p>
+                </div>
+                <div class="media-div">
+                  <h3>Other pages</h3>
+                  <div class="media-icons">
+                    <img class='media-svg' src="./assets/imgs/pinterest.svg" alt="pinterest">
+                    <img class='media-svg' src="./assets/imgs/facebook.svg" alt="facebook">
+                    <img class='media-svg' src="./assets/imgs/twitter.svg" alt="twitter">
+                    <img class='media-svg' src="./assets/imgs/youtube.svg" alt="youtube">
+                  </div>
+                </div>
+              </div>
+              <div class="photos-container">
+                <div class="photos-main-photo-container">
+                  <img class='photos-main-img' src="./assets/imgs/restaurant1.jpg" alt="main">
+                </div>
+                <div class="photos-small-photos-container">
+                  <img class='mini-photo' src="./assets/imgs/restaurant1.jpg" alt="mini">
+                  <img class='mini-photo' src="./assets/imgs/brickwall.png" alt="mini">
+                  <img class='mini-photo' src="./assets/imgs/pillartest2.png" alt="mini">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="calendar-tab">
+          <div class="calendar-container">
+            <div class="calendar-information">
+              <h2 class='month-name'></h2>
+            </div>
+            <div class="calendar-main">
+              <div class="calendar-day-description">
+                <div class="calendar-day-element">
+                  Monday
+                </div>
+                <div class="calendar-day-element">
+                  Tuesday
+                </div>
+                <div class="calendar-day-element">
+                  Wednesday
+                </div>
+                <div class="calendar-day-element">
+                  Thursday
+                </div>
+                <div class="calendar-day-element">
+                  Friday
+                </div>
+                <div class="calendar-day-element">
+                  Saturday
+                </div>
+                <div class="calendar-day-element">
+                  Sunday
+                </div>
+
+              </div>
+              <div class="calendar-inside"></div>
+              <button class='calendar-button calendar-button-left' type="button" name="button">LEFT</button>
+              <button class='calendar-button calendar-button-right' type="button" name="button">RIGHT</button>
+            </div>
+            <div class='calendar-trivia'>
+              <div class="trivia">
+                <div class="trivia-box trivia-box-today"></div>
+                <span class='trivia-text'> - today</span>
+              </div>
+              <div class="trivia">
+                <div class="trivia-box trivia-box-normal"></div>
+                <span class='trivia-text'> - normal</span>
+              </div>
+              <div class="trivia">
+                <div class="trivia-box trivia-box-reserved"></div>
+                <span class='trivia-text'> - reserved</span>
+              </div>
+              <div class="trivia">
+                <div class="trivia-box trivia-box-event"></div>
+                <span class='trivia-text'> - event</span>
+              </div>
+              <div class="trivia">
+                <div class="trivia-box trivia-box-closed"></div>
+                <span class='trivia-text'> - closed</span>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+      </section>
+
+
+
+
+<!-- <div>Icons made by <a href="https://www.flaticon.com/authors/icongeek26" title="Icongeek26">Icongeek26</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
+
+    </div>
+  </body>
+</html>
